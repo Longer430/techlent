@@ -9,6 +9,9 @@ pythonenv*
 back_venv/
 front_venv/
 
+#videos
+week5/week5_CICD.mp4
+
 # Dependencies
 node_modules/
 /.pnp
