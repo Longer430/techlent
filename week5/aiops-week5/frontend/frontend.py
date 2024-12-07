@@ -23,7 +23,7 @@ def send_message(message, role):
     """发送消息到后端"""
     try:
         response = requests.post(
-            f"http://localhost:5001/chat/{role}",
+            f"http://localhost:5002/chat/{role}",
             json={"message": message}
         )
         if response.status_code == 200:
