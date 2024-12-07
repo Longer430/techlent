@@ -36,7 +36,7 @@ jobs:
           # Pull latest code
           echo "Pulling latest code..."
           git fetch --all
-          git reset --hard origin/main
+          git reset --hard origin/week5
           
           # Deploy backend
           echo "Deploying backend..."
