@@ -20,7 +20,7 @@ jobs:
           echo "Starting deployment..."
           
           # Define paths
-          BASE_DIR="/home/${{ secrets.EC2_USERNAME }}/aiops"
+          BASE_DIR="/home//ec2-user/techlent_Dec5/techlent/${{ secrets.EC2_USERNAME }}/aiops"
           BACKEND_DIR="$BASE_DIR/backend"
           FRONTEND_DIR="$BASE_DIR/frontend"
           
