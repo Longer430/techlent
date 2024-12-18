@@ -33,7 +33,7 @@ def send_message(message, role):
         return f"Error: {str(e)}"
 
 # 页面标题
-st.title("💬 多角色聊天机器人 12.20")
+st.title("💬 多角色聊天机器人 12.20-2")
 
 # 角色选择
 selected_role = st.selectbox(
